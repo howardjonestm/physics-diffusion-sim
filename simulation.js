@@ -25,7 +25,7 @@ function startGame(){
     rectangles.push(new rectangle(225,450,rectW,rectH));
 
     for(i=0; i<50; i++){
-        particles.push(new component(random(1,230), random(1,479), random(1,2), random(1,2)));
+        particles.push(new component(random(1,230), random(1,479), random(-2,2), random(-2,2)));
     }
     
 
